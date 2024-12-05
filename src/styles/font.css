@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Soft';
+    src: url('./bobbyjonesKit/BobbyJonesSoft-Regular.eot');
+    src: url('./bobbyjonesKit/BobbyJonesSoft-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./bobbyjonesKit/BobbyJonesSoft-Regular.woff2') format('woff2'),
+        url('./bobbyjonesKit/BobbyJonesSoft-Regular.woff') format('woff'),
+        url('./bobbyjonesKit/BobbyJonesSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'All';
+    src: url('./bobbyjonesKit/BobbyRoughSoft-Outline.eot');
+    src: url('./bobbyjonesKit/BobbyRoughSoft-Outline.eot?#iefix') format('embedded-opentype'),
+        url('./bobbyjonesKit/BobbyRoughSoft-Outline.woff2') format('woff2'),
+        url('./bobbyjonesKit/BobbyRoughSoft-Outline.woff') format('woff'),
+        url('./bobbyjonesKit/BobbyRoughSoft-Outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outline';
+    src: url('./bobbyjonesKit/BobbyJonesSoft-Outline.eot');
+    src: url('./bobbyjonesKit/BobbyJonesSoft-Outline.eot?#iefix') format('embedded-opentype'),
+        url('./bobbyjonesKit/BobbyJonesSoft-Outline.woff2') format('woff2'),
+        url('./bobbyjonesKit/BobbyJonesSoft-Outline.woff') format('woff'),
+        url('./bobbyjonesKit/BobbyJonesSoft-Outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rough';
+    src: url('./bobbyjonesKit/BobbyRoughSoft-Regular.eot');
+    src: url('./bobbyjonesKit/BobbyRoughSoft-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./bobbyjonesKit/BobbyRoughSoft-Regular.woff2') format('woff2'),
+        url('./bobbyjonesKit/BobbyRoughSoft-Regular.woff') format('woff'),
+        url('./bobbyjonesKit/BobbyRoughSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
