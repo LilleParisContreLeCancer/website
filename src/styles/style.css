@@ -15,11 +15,15 @@
 }
 
 body {
+    position: relative;
     overflow-x: hidden;
     color: var(--black);
     width: 100vw;
     max-width: 100vw;
     height: fit-content;
+}
+strong {
+    font-size: inherit;
 }
 
 nav {
@@ -33,6 +37,11 @@ nav {
     justify-content: space-evenly;
     align-items: center;
 }
+
+
+#burger {
+    display: none;
+  }
 
 nav > #logo {
     border-radius: 100%;
@@ -102,13 +111,8 @@ header {
 
 header > img {
     position: absolute;
-    bottom: -0.1rem;
+    bottom: -0.2rem;
     width: 105%;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;          /* Firefox */
-    image-rendering: -o-crisp-edges;            /* Opera */
-    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
-    -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
 }
 
 section {
@@ -119,4 +123,315 @@ section {
 
 #first {
     background-color: var(--lPurple);
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding: 3em;
+    padding-bottom: 7rem;
+}
+
+#first > img {
+    max-width: 30vw;
+    max-height: 40vh;
+    height: fit-content;
+}
+
+#first > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#first > div > h1 {
+    text-align: right;
+    color: var(--purple);
+    font-size: 3rem;
+}
+#first > div > p {
+    font-size: 2rem;
+    max-width: 50vw;
+}
+
+#first > div > p > strong {
+    color: var(--yellow);
+}
+
+#second {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:fit-content;
+    background-color: var(--lPurple);
+    padding: 7rem 0rem;
+}
+
+#second  > div {
+    z-index: 100;
+    max-width: 35vw;
+}
+
+#second  > div > h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--yellow);
+    padding-bottom: 2rem;
+}
+
+#second  > div > p{
+    text-align: justify;
+    font-size: 2rem;
+}
+
+#second  > div > p > strong {
+    color: var(--white);
+}
+
+#second > img {
+    height: fit-content;
+    width: 50vw;
+    max-width: 40rem;
+
+    border-radius: 55% 40% 60% 40%;
+    -webkit-border-radius: 55% 40% 60% 40%;
+    -moz-border-radius: 55% 40% 60% 40%;
+    -ms-border-radius: 55% 40% 60% 40%;
+    -o-border-radius: 55% 40% 60% 40%;
+}
+
+#third {
+    position: relative;
+    background-color: var(--purple);
+    height: fit-content;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#third > div {
+    z-index: 100;
+    right: 0rem;
+    padding: 8rem 5rem;
+    width: 50vw;
+    margin-left: 50vw;
+}
+
+#third > div > h1{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--yellow);
+    padding-bottom: 4rem;
+}
+
+#third > div > p {
+    font-size:2rem ;
+    text-align: justify;
+}
+
+#third > div > p > strong {
+    color:var(--lPurple) ;
+}
+
+#third > img {
+    max-width: 50vw;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    background-image: url(../assets/marathon.jpeg);
+    background-position: center;
+    background-size:cover;
+    height: 100%;
+}
+
+#four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    background-color: var(--lPurple);
+    height: fit-content;
+}
+
+#four > #fourFirst {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 0rem;
+    height: fit-content;
+    width: 100vw;
+}
+
+#four > #fourSecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem 0rem;
+    height: fit-content;
+    width: 100vw;
+}
+
+#four > section> #hand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+    max-width: 20vw;
+}
+
+#four > section > #hand > h1 {
+    font-size: 4rem;
+    color: var(--yellow);
+}
+
+#four > section > #hand > img {
+    max-width:10rem;
+    width: 100%;
+}
+
+#four > section > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    width: 60vw;
+}
+
+#four > section > div > p {
+    padding: 1rem 0rem;
+    font-size: 2rem;
+}
+
+#four > section > div > p > strong {
+    color: var(--purple);
+}
+
+#four > section > h1 {
+    text-align: left;
+    width: 90%;
+    color: var(--purple);
+    font-size: 3rem;
+}
+
+#four > section > p {
+    width: 80vw;
+    font-size: 2rem;
+    padding: 4rem;
+}
+
+#four > section > p > strong {
+    color: var(--white);
+}
+
+#searchYear {
+    z-index: 100;
+    position: absolute;
+    bottom: -3rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100%;
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+#searchYear > h1 {
+    font-size: 3rem;
+}
+
+#five {
+    width: 100vw;
+    height: fit-content;
+    background-color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#five > img {
+    width: 25vw;
+}
+
+#five > div {
+    max-height: 100%;
+    padding: 5rem 0rem;
+    width: 60vw;
+}
+
+#five > div > p {
+    font-size: 1.5rem;
+}
+
+#five > div > p > strong {
+    color: var(--yellow);
+}
+
+#five > div > #sheme {
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#five > div > #sheme > h1 {
+    font-size: 2.5rem;
+}
+
+#five > div > #sheme > h1 > strong {
+    color:var(--yellow);
+}
+
+#five > div > #sheme > div {
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#five > div > #sheme > div > p {
+    max-width: 30%;
+    font-size: 1.3rem;
+}
+
+#five > div > #sheme > div > img {
+    max-width: 20%;
+}
+
+#five > div > #sheme > div > div > div  {
+    text-align: center;
+}
+
+#five > div > #sheme > div > div > div > p {
+    font-size: 1.2rem;
+}
+
+#five > div > #sheme > div > div > div > h2 {
+    font-size: 3rem;
+    color: var(--yellow);
+}
+
+#five > p {
+    position: absolute;
+    bottom: 3rem;
+    font-size: 1.3rem;
+    padding: 0rem 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+#five > p > strong {
+    color: var(--yellow);
 }
