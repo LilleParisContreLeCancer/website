@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/1555c59d50.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/dynamic.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <title>Lille Paris Contre Le Cancer</title>
@@ -15,11 +16,11 @@
     <nav>
         <img src="./assets/logo.png" id="logo"></img>
 
-        <button class="navBtn">Qui somme nous ?</button>
-        <button class="navBtn">Evenements</button>
-        <button class="navBtn">Vos dons</button>
-        <button class="navBtn">Partenaires</button>
-        <button class="navBtn">Nous contacter</button>
+        <a href="#quisommenous"><button class="navBtn">Qui somme nous ?</button></a>
+        <a href="#evenements"><button class="navBtn">Evenements</button></a>
+        <a href="#dons"><button class="navBtn">Vos dons</button></a>
+        <a href="#partenaires"><button class="navBtn">Partenaires</button></a>
+        <a href="#contacter"><button class="navBtn">Nous contacter</button></a>
     </nav>
 
     <div id="burger">
@@ -37,10 +38,13 @@
                 <div><i class="fa-brands fa-facebook"></i></div>
                 <div><i class="fa-brands fa-tiktok"></i></div>
             </div>
+            <button id="donate">
+                Donner
+            </button>
         </div>
         <img id="headerBottom" src="assets/headerBottom.png" alt="">
     </header>
-    <section id="first">
+    <section name="quisommenous" id="first">
         <img src="./assets/cyclist.png" alt="">
         <div>
             <h1>
@@ -66,7 +70,7 @@
         </div>
         <img src="./assets/rainbow.jpeg" alt="">
     </section>
-    <section id="third">
+    <section name="evenements"  id="third">
         <img src="./assets/mask.png" alt="">
         <div>
             <h1>EVENEMENTS PONCTUELS</h1>
@@ -78,7 +82,7 @@
             </p>
         </div>
     </section>
-    <section id="four">
+    <section name="dons" id="four">
         <section id="fourFirst">
             <div id="hand">
                 <img src="./assets/hand.png" alt="">
@@ -135,7 +139,7 @@
                     <div>
                         <div>
                             <h2>57%</h2>
-                            <p>des cancers chez la femme</p>
+                            <p>des cancers chez <br> la femme</p>
                         </div>
                         <div>
                             <h2>44%</h2>
@@ -147,8 +151,20 @@
         </div>
         <p>De nombreux patients connaissent encore des <strong>échecs thérapeutiques</strong>. Comprendre les mécanismes de la maladie et les résistances aux traitements est un combat majeur de la <strong>Fondation de France</strong>.</p>
     </section>
-    <section></section>
-    <footer></footer>
+    <section name="partenaires" id="six">
+        <section>
+        <h1>PARTENAIRES</h1>
+        <div>
+            <img src="./assets/fondation.jpeg" alt="">
+            <img src="./assets/opal.png" alt="">
+            <img src="./assets/velo.jpeg" alt="">
+            <img src="./assets/atelier.png" alt="">
+            <img src="./assets/epita.png" alt="">
+        </div>
+        </section>
+        <article id="img"></article>
+    </section>
+    <footer name="contacter"></footer>
 
     <script src="./app.js"></script>
 </body>
